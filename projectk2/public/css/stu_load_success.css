@@ -1,0 +1,205 @@
+.title {
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.nav_bak {
+    background: rgba(68,183,133,.8);
+}
+#nav_add_admin > li > a:hover,
+#nav_add_admin > li > a:focus {
+  text-decoration: none;
+  background-color: rgba(68,183,133,.8);
+}
+.color_i {
+    color: #fff;
+}
+.dropdown-add1 {
+    color: #fff;
+    /* background-color: #e5e5e5; */
+}
+#dropdown_menu_add1 {
+    min-width: 90px;
+    background: rgba(68,183,133,.5);
+    
+}
+#dropdown_menu_add1 > li > a {
+    padding: 3px 25px;
+
+}
+#dropdown_menu_add1 > li > a:hover {
+    background: rgba(68,183,133,1);
+}
+#dropdown_menu_add1 a {
+    color: #fff;
+}
+.user_img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.user_img>img {
+    width: 30px;
+    height: 30px;
+}
+.section_left_box {
+    width: 15%;
+    /* border-right: 1px solid #eee; */
+}
+.section_ul>li>a {
+    color: #444;
+}
+.section_ul>li>a>i{
+    margin: auto 8px;
+}
+
+
+
+.section_right_box {
+    /* height: 40px;
+    line-height: 40px; */
+    width: 85%;
+    /* background: rgba(192, 186, 186, 0.4); */
+    /* border-bottom: 2px solid #eee; */
+}
+
+/* ----------------------面包屑div-------------------------- */
+.breadcrumb_add {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color:  rgba(68,183,133,.8);
+    border-radius: 4px;
+  }
+  .breadcrumb_add > li {
+    display: inline-block;
+  }
+  .breadcrumb_add > li > a {
+    color: #fff;
+    
+  }
+  .breadcrumb_add > li + li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "/\00a0";
+  }
+  .breadcrumb_add > .active {
+    color: rgba(68,183,133,1);
+    text-decoration: none;
+  }
+
+  /* ---------------公告管理----------------- */
+  .tr_line_css {
+    border-top: none;
+  }
+ #table_special_css {
+      
+  }
+  .table_p1 {
+      padding-left:10px ;
+      font-weight: 600;
+      font-size: 16px;
+  }
+  .table_p2 {
+      padding-left:10px ;
+      height: 50px;
+      line-height: 50px;
+      background: #eee;
+  }
+  .td_special_css {
+      color: #888;
+      font-size: 12px;
+  }
+ .td_special_num_css {
+    color: #888;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.section_page_box {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* -------------------学生管理----------------- */
+.btn_css_1 {
+    background: rgba(68,183,133,.8);
+    color: #fff;
+}
+#btn_css_2 {
+    color: rgba(68,183,133,.8);
+    background: transparent;
+    border: 1px solid rgba(68,183,133,.8);
+}
+#btn_css_2:hover {
+    color: rgba(68,183,133,1);
+}
+.second_top_box {
+    width: 500px;
+    overflow: hidden;
+}
+.second_bottom_box {
+    margin-top: 30px;
+}
+.tr_bg_css {
+    background: #eee;
+}
+.table_add_css1 {
+    text-align: center;
+}
+
+/* -------------------查看缴费记录div--------------------- */
+.page_add_1>nav>.pagination>li>a {
+    border: none !important;
+}
+.modal-header>.modal_title_add1 {
+    text-align: center !important;
+    color: #333;
+}
+.form_group_add2 {
+    width: 285px;
+    /* height: 35px; */
+    margin: 5px auto;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.form_group_add2:first-child {
+    width: 285px;
+    /* height: 35px; */
+    margin-bottom: 23px;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.form_group_add2:nth-of-type(4) {
+    width: 285px;
+    /* height: 35px; */
+    margin-bottom: 23px;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.control_label_add2 {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+    margin-right: 12px;
+    text-align: right;
+    
+}
+.textarea_add_1 {
+    width: 200px;
+}
+.form_add_p2 {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(228, 23, 23);
+    opacity: 0;
+}
+.table_div {
+    padding-right: 50px;
+}

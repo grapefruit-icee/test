@@ -1,0 +1,414 @@
+/* ------------登录成功的div----------------- */
+body {
+    position: relative;
+}
+#load_success {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -150px;
+    border: 1px solid #eee;
+    color: #666;
+    background: #eee;
+    border-radius: 5px;
+    z-index: 999;
+    text-align: center;
+}
+
+
+
+
+
+.title {
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.nav_bak {
+    background: rgba(68,183,133,.8);
+}
+#nav_add_admin > li > a:hover,
+#nav_add_admin > li > a:focus {
+  text-decoration: none;
+  background-color: rgba(68,183,133,.8);
+}
+.color_i {
+    color: #fff;
+}
+.i_add_css1 {
+    vertical-align: -2px;
+}
+.dropdown-add1 {
+    color: #fff;
+    /* background-color: #e5e5e5; */
+}
+#dropdown_menu_add1 {
+    min-width: 90px;
+    background: rgba(68,183,133,.5);
+    
+}
+#dropdown_menu_add1 > li > a {
+    padding: 3px 25px;
+
+}
+#dropdown_menu_add1 > li > a:hover {
+    background: rgba(68,183,133,1);
+}
+#dropdown_menu_add1 a {
+    color: #fff;
+}
+.user_img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.user_img>img {
+    width: 25px;
+    height: 25px;
+}
+.section_left_box {
+    width: 15%;
+    /* border-right: 1px solid #eee; */
+}
+.section_ul>li>a {
+    color: #444;
+}
+.section_ul>li>a>i{
+    margin: auto 8px;
+}
+
+
+
+.section_right_box {
+    /* height: 40px;
+    line-height: 40px; */
+    width: 85%;
+    /* background: rgba(192, 186, 186, 0.4); */
+    /* border-bottom: 2px solid #eee; */
+}
+
+/* ------------------第一个公告主页div--------------------------- */
+
+/* 面包屑div */
+.breadcrumb_add {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color:  rgba(68,183,133,.8);
+    border-radius: 4px;
+  }
+  .breadcrumb_add > li {
+    display: inline-block;
+  }
+  .breadcrumb_add > li > a {
+    color: #fff;
+    
+  }
+  .breadcrumb_add > li + li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "/\00a0";
+  }
+  .breadcrumb_add > .active {
+    color: rgba(68,183,133,1);
+    text-decoration: none;
+  }
+
+  /* ----------表格的样式------------------ */
+  .tr_line_css {
+    border-top: none;
+  }
+  .admin_tr_add1 {
+      height: 50px;
+
+  }
+  .table_div {
+      padding-right: 50px;
+  }
+ #table_special_css {
+      
+  }
+  .table_p1 {
+      padding-left:10px ;
+      font-weight: 600;
+      font-size: 16px;
+  }
+  .table_p2 {
+      padding-left:10px ;
+      height: 50px;
+      line-height: 50px;
+      background: #eee;
+  }
+  .td_special_css {
+      color: #888;
+      font-size: 12px;
+  }
+ .td_special_num_css {
+    color: #888;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.section_page_box {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ----------宿舍管理-------------------- */
+.btn_css_1 {
+    background: rgba(68,183,133,.8);
+    color: #fff;
+    outline: none !important;
+}
+#btn_css_2 {
+    color: rgba(68,183,133,.8);
+    background: transparent;
+    border: 1px solid rgba(68,183,133,.8);
+    outline: none;
+}
+#btn_css_2:hover {
+    color: rgba(68,183,133,1);
+}
+.second_top_box {
+    width: 600px;
+    overflow: hidden;
+}
+.second_bottom_box {
+    margin-top: 30px;
+}
+.tr_bg_css {
+    background: #eee;
+}
+.table_add_css1 {
+    text-align: center;
+}
+
+/* ------------------ 第二个宿舍管理的模态框 ---------------------- */
+.error_add1 {
+    color: gold;
+    font-size: 20px;
+    vertical-align: -4px;
+}
+/* #myModal>.modal-dialog>.modal-content>.modal-body {
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 15px;
+} */
+.modal-content>.modal_body_add1 {
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 15px;
+}
+
+/* ------------------ 第三个学生管理的模态框 ---------------------- */
+/* #exampleModal>.modal-dialog>.modal-body>.form_group_add1 {
+    text-align: left;
+} */
+.modal>.modal_dialog_add1 {
+    width: 400px;
+}
+.form_group_add1 {
+    width: 270px;
+    margin: 3px auto;
+    /* border: 1px solid red; */
+}
+.form_group_add1:nth-of-type(2n+1) {
+    margin-bottom: 20px;
+}
+.form_group_add1:last-child {
+    margin-bottom: 0px;
+}
+.modal-header>.modal_title_add1 {
+    text-align: center;
+    color: #333;
+}
+.control_label_add1 {
+    margin-top: 6px;
+    font-size: 14px;
+    margin-right: 8px;
+    color: #333;
+} 
+.form-group>.form_control_add1 {
+    height: 30px;
+}
+
+.star_add1 {
+    color: red;
+}
+.select_add_1 {
+    width: 171px;
+    height: 28px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #333;
+    border-radius: 4px;
+}
+.form_add_p {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(228, 23, 23);
+    opacity: 0;
+}
+
+nav>.nav_add_1 {
+    margin: 70px auto 0px;
+}
+.page_add_1>nav>.pagination>li>a {
+    border: none !important;
+}
+
+
+/* ---------------第四个公告管理模态框--------------------- */
+.form_group_add2 {
+    width: 285px;
+    /* height: 35px; */
+    margin: 5px auto;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.form_group_add2:first-child {
+    width: 285px;
+    /* height: 35px; */
+    margin-bottom: 23px;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.form_group_add2:nth-of-type(4) {
+    width: 285px;
+    /* height: 35px; */
+    margin-bottom: 23px;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.control_label_add2 {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+    margin-right: 12px;
+    text-align: right;
+    
+}
+.textarea_add_1 {
+    width: 200px;
+}
+.form_add_p2 {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(228, 23, 23);
+    /* opacity: 0; */
+}
+/* ---------------第五个管理员管理模态框--------------------- */
+.form_group_add3 {
+    width: 285px;
+    /* height: 35px; */
+    margin: 5px auto;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.form_group_add3:first-child {
+    width: 285px;
+    /* height: 35px; */
+    margin-bottom: 23px;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+/* .form_group_add2:nth-of-type(4) {
+    width: 285px;
+    margin-bottom: 23px;
+    text-align: right;
+} */
+
+/* ---------------最上面的添加管理员模态框--------------------- */
+.form_group_add4 {
+    height: 30px !important;
+    /* margin-bottom: 23px !important; */
+    margin: 10px 56px !important;
+}
+.form_group_add4:first-child {
+    margin-top: 0px !important;
+}
+.form_add_p4 {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(228, 23, 23);
+    margin-left: 45px;
+}
+/* ---------------最上面的添加宿舍模态框--------------------- */
+.form_group_add5 {
+    height: 30px !important;
+    margin: 20px auto 0px!important;
+    padding-left: 40px;
+}
+/* .form_group_add5:last-child>input {
+   margin-left: 5px;
+} */
+.form_group_add5:first-child {
+    margin-top: 0px !important;
+}
+.control_label_add3 {
+    margin-top: 2px;
+    width: 61px;
+}
+
+.form_add_p5 {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(228, 23, 23);
+    margin-left: 70px;
+}
+/* ---------------最上面的添加公告模态框--------------------- */
+.form_group_add6 {
+    width: 300px;
+    /* height: 35px; */
+    margin: 5px auto;
+    margin-left: 37px !important;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.textarea_add_2 {
+    width: 200px !important;
+}
+/* ----------------上面添加学生按钮------------------ */
+.form_group_add7 {
+    width: 300px;
+    /* height: 35px; */
+    margin: 5px auto;
+    margin-left: 58px !important;
+    /* border: 1px solid red; */
+}
+.form_add_p7 {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(228, 23, 23);
+    margin-left: 43px;
+}
+
+nav>.nav_add_11 {
+    margin: 70px 240px 0px !important;
+}
+
+
+/* ----------------面包屑导航--------------------- */
+.breadcrumb_add {
+    /* height: 30px;
+    line-height: 30px; */
+
+}
+.i_add {
+    color: #fff;
+    vertical-align: -2px;
+}
+
+

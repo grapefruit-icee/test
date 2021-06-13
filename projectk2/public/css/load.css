@@ -1,0 +1,75 @@
+.side_box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/load_bg.jpg') no-repeat;
+    background-size: 100%;
+}
+.load_box {
+    width: 400px;
+    height: 400px;
+    background: rgba(255,255,255,.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+.load_box>p{
+    font-size: 24px;
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid #fff;
+    color: #000;
+    text-align: center;
+    margin: 20px auto;
+}
+.load_center {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.form_box_2 {
+    margin-top: 30px;
+    
+}
+.user_input {
+    /* width: 330px; */
+}
+.icon_comm {
+    font-size: 16px;
+}
+.radio_box {
+    /* margin-top: 30px;
+    margin-left: 80px; */
+    width: 180px;
+    height: 50px;
+    margin: 30px auto 10px;
+}
+.radio_box>input:nth-of-type(2) {
+    margin-left: 40px;
+}
+.btn_add_css {
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    outline: none;
+    /* margin-top: 30px; */
+}
+.p_opacity {
+    margin-left: 75px;
+    color: red;
+    height: 16px;
+    line-height: 16px;
+}
+.p3_opacity {
+    /* margin-left: 55px; */
+    color: red;
+    height: 16px;
+    line-height: 16px;
+}
